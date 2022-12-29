@@ -2,6 +2,15 @@
 
 <html>
 	<head>
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JYY75HF21R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JYY75HF21R');
+</script>
 		<title>Talent Tracker</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -23,10 +32,11 @@
 									<div id="menu">
 										<ul>
 											<li><a href="index.html">Home</a></li>
-											<li><a href="generic.html">Generic</a></li>
-											<li><a href="elements.html">Elements</a></li>
+											<li><a href="#one" class="more scrolly">Services</a></li>
 											<li><a href="#cf" class="more scrolly">Competency Frameworks</a></li>
-											<li><a href="#">Log In</a></li>
+											<li><a href="#upskilling" class="more scrolly">Upskilling Training</a></li>
+                                            <li><a href="#xapi" class="more scrolly">Performance Tracking</a></li>
+                                            <li><a href="aboutmike.html">About Us</a></li>
 										</ul>
 									</div>
 								</li>
@@ -62,15 +72,16 @@
 							<ul class="icons major">
 								<li><span class="icon fa-gem major style1"><span class="label">Competency Framework</span></span><p><h3>Competency <br/> Framework</h3></p></li>
 								<li><span class="icon fa-heart major style2"><span class="label">Upskilling at Scale</span></span><p><h3>Upskilling <br/> at Scale</h3></p></li>
-								<li><span class="icon solid fa-code major style3"><span class="label">xAPI Development</span></span><p><h3>xAPI <br/> Development</h3></p></li>
+								<li><span class="icon solid fa-code major style3"><span class="label">Performance Tracking</span></span><p><h3>xAPI <br/> Development</h3></p></li>
 							</ul>
 						</div>
 					</section>
 
 				<!-- competency frameworks -->
-					<section id="cf" class="wrapper alt style2">
-						<section class="spotlight">
-							<div class="image"><img src="images/cfemployeeperf.jpg" alt="" /></div><div class="content">
+					<section class="wrapper alt style2">
+						<section id="cf" class="spotlight">
+							<div class="image"><img src="images/cfemployeeperf.jpg" alt="" /></div>
+                            <div class="content">
 								<h2>Competency Framework Development</h2>   
 								<p>Talent Tracker can help you improve employee performance and drive business success with competency frameworks. 
                                     <ul>
@@ -79,10 +90,11 @@
                                         <li>Use identified skills as a roadmap for employee development and growth</li>
                                         <li>Provide targeted training and development opportunities</li>
                                       </ul>
+                                      <a href="compframeworks.html" class="button primary icon solid fa-gem">Learn More</a>
                                 </p>
 							</div>
 						</section>
-						<section class="spotlight">
+						<section id="upskilling" class="spotlight">
 							<div class="image"><img src="images/cfemployeedev.jpg" alt="" /></div><div class="content">
 								<h2>Upskilling Training at Scale</h2>
 								<p>Talent Tracker can help you identify and implement upskilling training that will benefit your business and your employees.</p>
@@ -92,11 +104,12 @@
                                     <li>Provide targeted training and development opportunities that are tailored to the needs of your employees</li>
                                     <li>Track employee progress to measure the impact of your training efforts and make informed decisions about how to continue supporting employee growth and success</li>
                                   </ul>
+                                  <a href="upskill.html" class="button primary icon solid fa-heart">Learn More</a>
 							</div>
 						</section>
-						<section class="spotlight">
+						<section id="xapi" class="spotlight">
 							<div class="image"><img src="images/cfbusiness.jpg" alt="" /></div><div class="content">
-								<h2>xAPI Development</h2>
+								<h2>Performance Tracking with xAPI</h2>
 								<p>Talent Tracker can help you develop and implement a custom xAPI solution that will benefit your business and your employees.</p>
                                 <ul>
                                     <li>Use xAPI to track and measure employee performance and development</li>
@@ -149,11 +162,14 @@
 					<section id="cta" class="wrapper style4">
 						<div class="inner">
 							<header>
-								<h2>Reach out</h2>
-								<p>Contact Mike today for a free consultation.</p>
-							</header>
+                                <header>
+                                    <span class="image left "><img src="images/aiselfie.jpg" alt="" /></span>
+                                    <h2>Reach out</h2>
+                                    <p>Contact Mike today for a free consultation.</p>
+                                    
+                                </header>
 							<ul class="actions stacked">
-								<li><a href="mailto:mike@talenttracker.net" class="button medium primary">mike@talentracker.net</a></li>
+								<li><a href="mailto:mike@talenttracker.net" class="button medium primary">mike@talenttracker.net</a></li>
 								<li><a href="aboutmike.html" class="button medium">Learn more about Mike</a></li>
 							</ul>
 						</div>
@@ -162,28 +178,14 @@
 				<!-- Footer -->
                 <footer id="footer">
                     <ul class="icons">
-                      <li>
-                          <a href="tel:207-370-9877" class="icon solid fa-phone"><span class="label">Phone</span>207-370-9877</a></li>
+                      <li><a href="tel:207-370-9877" class="icon solid fa-phone"><span class="label">Phone</span>207-370-9877</a></li>
                       <li><a href="mailto:mike@talenttracker.net" class="icon solid fa-envelope"><span class="label">Email</span>mike@talentracker.net</a></li>
                       <li><a href="https://linkedin.com/in/mikepreble" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span>Mike Preble</a></li>
                     </ul>
                     <p class="copyright">&copy; Talent Tracker. Design: <a href="http://html5up.net">HTML5 UP</a>.</p>
                   </footer>
                   
-					<!-- <footer id="footer">
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-						<ul class="copyright">
-							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
-
-			</div> -->
+				</div>	
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
